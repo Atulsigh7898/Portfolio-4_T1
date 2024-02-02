@@ -96,7 +96,7 @@
             <div class="col-lg-6">
               <div class="home-text">
                 <h4>HELLO, I'M</h4>
-                <h1>Atul Singh</h1>
+                <h1> <span class="input"></span></h1>
                 <p>A Freelance UI Designer & Web Developer</p>
                 <div class="home-btn">
                   <a href="#" class="btn-1">view my work</a>
@@ -146,11 +146,8 @@
         <div class="col-lg-6">
           <div class="about-content">
             <h5 class="about-title">I'm <span>Atul Singh</span> and web developer</h5>
-            <p class="details">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus 
-              error autem veniam, nobis dolorem tenetur iusto quos sint recusandae, illum maiores 
-              similique aliquid et optio molestiae? Explicabo dolores perferendis consequatur
-               odio nam asperiores sequi voluptatem possimus. Cum sunt vitae cupiditate ea iste perspiciatis nam sit
-               distinctio ex quas. Neque libero asperiores quidem!</p>
+            <p class="details">A skilled Java Software Engineer specializes in the design, development, and maintenance of robust applications using the Java programming language. Proficient in object-oriented principles and frameworks like Spring and Hibernate, they contribute to the creation of scalable and efficient solutions while collaborating with cross-functional teams. On the other hand, a Web Developer focuses on crafting engaging and responsive web experiences, adept at leveraging technologies such as HTML, CSS, and JavaScript, along with popular frameworks like React or Angular. Responsible for both front-end development, ensuring visually
+               appealing user interfaces, and seamless back-end integration, Web Developers optimize websites for performance and cross-browser compatibility, showcasing a dynamic skill set in the evolving field of web development.</p>
                <ul>
                  <li>
                    <div class="single-info d-flex align-items-center">
@@ -822,5 +819,15 @@
   <script src="js/bootstrap.min.js"></script>
   <!-- main js -->
   <script src="js/main.js"></script>
+
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  <script>
+    var typed = new Typed(".input", {
+      strings:["Atul Singh", "FrontEnd Developer", "Java, Developer"],
+      typeSpeed: 70,
+      backSpeed: 65,
+      loop:true,
+    })
+  </script>
 </body>
 </html>
